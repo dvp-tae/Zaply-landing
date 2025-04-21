@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     siteName: "Zaply",
     images: [
       {
-        url: "/assets/images/ZaplyLanding.webp",
-        width: 1200,
-        height: 630,
+        url: "https://zaply-landing.vercel.app/assets/images/ZaplyLanding.webp",
+        width: 800,
+        height: 600,
         alt: "Zaply 서비스 이미지",
       },
     ],
