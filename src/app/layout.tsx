@@ -22,36 +22,39 @@ const creato = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zaply.com"),
+  metadataBase: new URL("https://zaply-landing.vercel.app/"),
   title: "Zaply | Create Once, Spread with Zaply",
   description:
     "Zaply를 통해 콘텐츠를 한 번 만들고 여러 플랫폼에 쉽게 배포하세요. 당신의 디지털 콘텐츠 제작과 배포를 혁신적으로 바꿔드립니다.",
   keywords: ["Zaply", "콘텐츠 제작", "콘텐츠 배포", "디지털 마케팅"],
-  // openGraph: {
-  //   title: "Zaply | Create Once, Spread with Zaply",
-  //   description: "Zaply를 통해 콘텐츠를 한 번 만들고 여러 플랫폼에 쉽게 배포하세요.",
-  //   url: "https://zaply.com",
-  //   siteName: "Zaply",
-  //   images: [
-  //     {
-  //       url: "https://zaply.com/og-image.jpg",
-  //       width: 1200,
-  //       height: 630,
-  //       alt: "Zaply 서비스 이미지",
-  //     },
-  //   ],
-  //   locale: "ko_KR",
-  //   type: "website",
-  // },
+  icons: {
+    icon: "/assets/svgs/icon.svg",
+  },
+  openGraph: {
+    title: "Zaply | Create Once, Spread with Zaply",
+    description: "Zaply를 통해 콘텐츠를 한 번 만들고 여러 플랫폼에 쉽게 배포하세요.",
+    url: "https://zaply-landing.vercel.app/",
+    siteName: "Zaply",
+    images: [
+      {
+        url: "/assets/svgs/icon.svg",
+        width: 1200,
+        height: 630,
+        alt: "Zaply 서비스 이미지",
+      },
+    ],
+    locale: "ko_KR",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   // twitter: {
   //   card: "summary_large_image",
   //   title: "Zaply | Create Once, Spread with Zaply",
   //   description: "Zaply를 통해 콘텐츠를 한 번 만들고 여러 플랫폼에 쉽게 배포하세요.",
   //   images: ["https://zaply.com/twitter-image.jpg"],
-  // },
-  // robots: {
-  //   index: true,
-  //   follow: true,
   // },
   // alternates: {
   //   canonical: "https://zaply.com",

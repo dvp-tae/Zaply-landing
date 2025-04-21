@@ -1,6 +1,6 @@
 "use client";
 
-import { LazyMotion, domAnimation, m } from "framer-motion";
+import { LazyMotion, domAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
 
 export default function MotionProvider({ children }: { children: React.ReactNode }) {
