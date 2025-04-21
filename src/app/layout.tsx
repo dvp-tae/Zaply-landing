@@ -50,15 +50,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "Zaply | Create Once, Spread with Zaply",
-  //   description: "Zaply를 통해 콘텐츠를 한 번 만들고 여러 플랫폼에 쉽게 배포하세요.",
-  //   images: ["https://zaply.com/twitter-image.jpg"],
-  // },
-  // alternates: {
-  //   canonical: "https://zaply.com",
-  // },
 };
 
 export const viewport: Viewport = {
