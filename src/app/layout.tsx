@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Zaply를 통해 콘텐츠를 한 번 만들고 여러 플랫폼에 쉽게 배포하세요. 당신의 디지털 콘텐츠 제작과 배포를 혁신적으로 바꿔드립니다.",
   keywords: ["Zaply", "콘텐츠 제작", "콘텐츠 배포", "디지털 마케팅"],
   icons: {
-    icon: "/assets/svgs/icon.svg",
+    icon: "/assets/images/ZaplyLanding.webp",
   },
   openGraph: {
     title: "Zaply | Create Once, Spread with Zaply",
