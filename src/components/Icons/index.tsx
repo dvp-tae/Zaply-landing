@@ -162,3 +162,314 @@ export const ShareIcon = ({ size = 24, className, color = "#FEFEFE", ...props }:
     />
   </svg>
 );
+
+export const ZaplyLogoIcon = ({
+  width = 34,
+  height = 40,
+  className,
+  color = "#FEFEFE",
+  ...props
+}: IconProps) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="180 180 68 80"
+    fill="none"
+    className={className}
+    {...props}>
+    <g clipPath="url(#clip0_144_3328)" filter="url(#filter0_d_144_3328)">
+      <mask id="mask0_144_3328" maskUnits="userSpaceOnUse" x="139" y="138" width="151" height="161">
+        <rect
+          x="139.936"
+          y="249.198"
+          width="140.677"
+          height="79.8435"
+          transform="rotate(-51.9188 139.936 249.198)"
+          fill="url(#paint0_linear_144_3328)"
+        />
+      </mask>
+      <g mask="url(#mask0_144_3328)">
+        <path d="M208.887 98.7976L208.85 309.119" stroke={color} strokeWidth="0.504202" />
+        <line
+          x1="119.368"
+          y1="220.765"
+          x2="297.814"
+          y2="220.765"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <path d="M206.003 102.733L216.181 303.325" stroke={color} strokeWidth="0.504202" />
+        <path d="M203.12 106.668L222.823 301.239" stroke={color} strokeWidth="0.504202" />
+        <line
+          x1="200.339"
+          y1="110.587"
+          x2="227.361"
+          y2="286.976"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="197.454"
+          y1="114.517"
+          x2="233.375"
+          y2="289.311"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="194.569"
+          y1="118.447"
+          x2="239.297"
+          y2="291.197"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="191.681"
+          y1="122.378"
+          x2="245.102"
+          y2="292.64"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="188.795"
+          y1="126.308"
+          x2="250.77"
+          y2="293.647"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="185.907"
+          y1="130.239"
+          x2="256.278"
+          y2="294.224"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="183.019"
+          y1="134.17"
+          x2="261.606"
+          y2="294.38"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="180.13"
+          y1="138.101"
+          x2="266.73"
+          y2="294.125"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="177.24"
+          y1="142.032"
+          x2="271.631"
+          y2="293.47"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="174.35"
+          y1="145.964"
+          x2="276.291"
+          y2="292.427"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="171.459"
+          y1="149.897"
+          x2="280.688"
+          y2="291.008"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="168.569"
+          y1="153.829"
+          x2="284.804"
+          y2="289.227"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="165.677"
+          y1="157.762"
+          x2="288.621"
+          y2="287.099"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="162.786"
+          y1="161.696"
+          x2="292.122"
+          y2="284.64"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="159.892"
+          y1="165.63"
+          x2="295.29"
+          y2="281.865"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="157"
+          y1="169.565"
+          x2="298.112"
+          y2="278.793"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="154.107"
+          y1="173.5"
+          x2="300.569"
+          y2="275.44"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="151.214"
+          y1="177.435"
+          x2="302.651"
+          y2="271.827"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="148.319"
+          y1="181.371"
+          x2="304.344"
+          y2="267.972"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="145.425"
+          y1="185.308"
+          x2="305.636"
+          y2="263.895"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="142.53"
+          y1="189.245"
+          x2="306.515"
+          y2="259.617"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="139.636"
+          y1="193.183"
+          x2="306.975"
+          y2="255.158"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="136.74"
+          y1="197.121"
+          x2="307.003"
+          y2="250.542"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="133.846"
+          y1="201.06"
+          x2="306.596"
+          y2="245.788"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="130.95"
+          y1="205"
+          x2="305.744"
+          y2="240.921"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="128.054"
+          y1="208.94"
+          x2="304.443"
+          y2="235.962"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="125.159"
+          y1="212.881"
+          x2="302.69"
+          y2="230.934"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+        <line
+          x1="122.263"
+          y1="216.823"
+          x2="300.48"
+          y2="225.861"
+          stroke={color}
+          strokeWidth="0.504202"
+        />
+      </g>
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_144_3328"
+        x="0.339081"
+        y="0.339081"
+        width="424.666"
+        height="443.155"
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB">
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset />
+        <feGaussianBlur stdDeviation="80.8305" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_144_3328" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_144_3328"
+          result="shape"
+        />
+      </filter>
+      <linearGradient
+        id="paint0_linear_144_3328"
+        x1="210.275"
+        y1="249.198"
+        x2="210.275"
+        y2="329.042"
+        gradientUnits="userSpaceOnUse">
+        <stop stopColor="#D9D9D9" stopOpacity="0" />
+        <stop offset="0.144231" stopColor="#D9D9D9" />
+        <stop offset="0.817308" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#D9D9D9" stopOpacity="0" />
+      </linearGradient>
+      <clipPath id="clip0_144_3328">
+        <rect width="101.345" height="119.833" fill="white" transform="translate(162 162)" />
+      </clipPath>
+    </defs>
+  </svg>
+);

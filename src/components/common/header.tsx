@@ -1,6 +1,6 @@
 "use client";
 
-import { MenuIcon, XIcon } from "../Icons";
+import { MenuIcon, XIcon, ZaplyLogoIcon } from "../Icons";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -17,9 +17,13 @@ export default function Header() {
         }`}>
         <button
           type="button"
-          className="w-[101px] h-10 flex items-center"
+          className="w-[101px] h-10 flex items-center justify-center gap-1"
           onClick={() => router.push("/")}>
-          로고들어갈자리
+          <ZaplyLogoIcon width={34} height={40} color={isOpen ? "#D6DBE2" : "#FEFEFE"} />
+          <p
+            className={`italic font-creato500 text-h2 ${isOpen ? "text-grayscale-400" : "text-grayscale-100"}`}>
+            Zaply
+          </p>
         </button>
         <>
           {isOpen ? (

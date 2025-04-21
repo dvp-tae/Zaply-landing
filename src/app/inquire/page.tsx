@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 
 export default function Inquire() {
   return (
-    <motion.div className="flex flex-col space-y-[140px] items-center justify-start pt-[120px] min-h-screen">
-      <div className="overflow-y-auto scrollbar-hide">
+    <motion.div className="flex flex-col space-y-[140px] items-center justify-start pt-[120px] w-full h-screen overflow-x-hidden overflow-y-auto snap-y snap-mandatory scrollbar-hide">
+      <div>
         <motion.p
           {...titleAnimation}
           className="italic font-extrabold text-center whitespace-pre-line font-creato800 text-h1 text-grayscale-100">
