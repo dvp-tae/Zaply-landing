@@ -12,7 +12,7 @@ export default function SectionFeatureThree() {
     <motion.div
       id="feature-03"
       ref={featureRef}
-      className="relative h-screen bg-center bg-cover bg-feature3 snap-start snap-always"
+      className="relative h-screen bg-center bg-cover bg-section3 snap-start snap-always"
       initial="hidden"
       viewport={{ once: false, amount: 0.5 }}
       whileInView="visible">

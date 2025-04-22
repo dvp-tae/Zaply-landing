@@ -75,7 +75,7 @@ export default function SectionFeatureOne() {
     <motion.div
       id="feature-01"
       ref={featureRef}
-      className="relative h-screen bg-center bg-cover bg-feature1 snap-start snap-always"
+      className="relative h-screen bg-center bg-cover bg-section1 snap-start snap-always"
       initial="hidden"
       viewport={{ once: false, amount: 0.5 }}
       whileInView="visible">
