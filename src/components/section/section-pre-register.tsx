@@ -15,7 +15,7 @@ export default function SectionPreRegister() {
       ref={featureRef}
       className="relative h-screen bg-center bg-cover bg-main snap-start snap-always">
       <div className="absolute inset-0 overflow-y-auto scrollbar-hide">
-        <div className="flex flex-col items-center justify-start pt-[80px] min-h-screen pb-[80px]">
+        <div className="flex flex-col items-center justify-start pt-[140px] min-h-screen pb-[80px]">
           <motion.p
             variants={containerVariants}
             className="mb-2 text-center whitespace-pre-line text-h2 text-blue-blueblack">
@@ -30,8 +30,15 @@ export default function SectionPreRegister() {
             {preRegisterInfoText.benefit.map((text, index) => (
               <div
                 key={index}
-                className="py-[14px] px-[39px] bg-grayscale-100/70 text-grayscale-700 font-semibold text-sm rounded-[12px] flex justify-center items-center w-full">
-                {text}
+                className="py-[14px] px-[39px] bg-grayscale-100/70 rounded-[12px] flex justify-center items-center w-full">
+                <p className="text-sm font-semibold text-center whitespace-pre-line text-grayscale-700">
+                  {text}
+                  {index === 1 && (
+                    <span className="font-medium text-b4 text-grayscale-600">
+                      (*추후 신청자들에 한해 공개예정)
+                    </span>
+                  )}
+                </p>
               </div>
             ))}
           </motion.div>

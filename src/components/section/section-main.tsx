@@ -20,7 +20,7 @@ const MainSection = () => {
   };
 
   return (
-    <div className="flex flex-col space-y-[140px] items-center justify-center h-screen snap-start snap-always">
+    <div className="flex flex-col space-y-[140px] items-center justify-center bg-main bg-cover bg-center h-screen snap-start snap-always">
       <div className="space-y-7">
         <p className="italic font-extrabold text-center whitespace-pre-line font-creato800 text-h1 text-blue-blueblack">
           {mainText.title}

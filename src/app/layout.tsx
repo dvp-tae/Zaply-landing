@@ -71,7 +71,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body
-        className={`${pretendard.variable} ${creato.variable} relative font-pretendard max-w-[480px] mx-auto bg-main bg-cover bg-center h-svh overflow-x-hidden overscroll-none`}>
+        className={`${pretendard.variable} ${creato.variable} relative font-pretendard max-w-[480px] mx-auto bg-grayscale-200 h-svh overflow-x-hidden overscroll-none`}>
         <MotionProvider>
           <Header />
           <main>{children}</main>

@@ -1,6 +1,6 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { CheckBoxIcon } from "../../Icons";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { cn } from "@/hooks/utils";
 
 export default function InquireForm() {
@@ -12,8 +12,17 @@ export default function InquireForm() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [inquiry, setInquiry] = useState("");
   const [isFormValid, setIsFormValid] = useState(false);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const [state, handleSubmit] = useForm(formId);
+
+  const adjustTextareaHeight = () => {
+    const textarea = textareaRef.current;
+    if (textarea) {
+      textarea.style.height = "41px";
+      textarea.style.height = `${Math.min(textarea.scrollHeight, 188)}px`;
+    }
+  };
 
   useEffect(() => {
     setIsFormValid(
@@ -26,14 +35,20 @@ export default function InquireForm() {
   }, [name, email, phoneNumber, inquiry, isAgree]);
 
   useEffect(() => {
+    adjustTextareaHeight();
+  }, [inquiry]);
+
+  useEffect(() => {
     if (state.succeeded) {
       setName("");
       setEmail("");
       setPhoneNumber("");
       setInquiry("");
       setIsAgree(false);
+
+      alert("문의 사항 제출이 성공적으로 완료되었습니다. 감사합니다!");
     }
-  }, [state]);
+  }, [state.succeeded]);
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-8">
@@ -95,11 +110,12 @@ export default function InquireForm() {
         <textarea
           id="inquiry"
           name="inquiry"
+          ref={textareaRef}
           value={inquiry}
           onChange={e => setInquiry(e.target.value)}
           placeholder="자유롭게 문의 사항이나 의견을 남겨주세요."
           required
-          className="w-full h-10 rounded-[12px] bg-grayscale-100 text-center py-[10px] px-5 text-sm font-medium text-grayscale-700 placeholder:text-grayscale-500"
+          className="resize-none w-full h-auto overflow-y-auto rounded-[12px] bg-grayscale-100 text-center py-[10px] px-5 text-sm font-medium text-grayscale-700 placeholder:text-grayscale-500"
         />
         <ValidationError prefix="문의내용" field="inquiry" errors={state.errors} />
       </div>

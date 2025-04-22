@@ -8,18 +8,20 @@ import { motion } from "framer-motion";
 
 export default function Inquire() {
   return (
-    <motion.div className="flex flex-col space-y-[140px] items-center justify-start pt-[120px] w-full h-screen overflow-x-hidden overflow-y-auto snap-y snap-mandatory scrollbar-hide">
+    <motion.div className="flex flex-col space-y-[140px] items-center justify-start pt-[120px] w-full h-screen overflow-x-hidden bg-main bg-cover bg-center overflow-y-auto snap-y snap-mandatory scrollbar-hide">
       <div>
-        <motion.p
-          {...titleAnimation}
-          className="italic font-extrabold text-center whitespace-pre-line font-creato800 text-h1 text-grayscale-100">
-          {mainText.title}
-        </motion.p>
-        <motion.p
-          {...subtitleAnimation}
-          className="font-bold text-center whitespace-pre-line text-t1 text-grayscale-100">
-          {mainText.subTitle}
-        </motion.p>
+        <div className="space-y-7">
+          <motion.p
+            {...titleAnimation}
+            className="italic font-extrabold text-center whitespace-pre-line font-creato800 text-h1 text-grayscale-100">
+            {mainText.title}
+          </motion.p>
+          <motion.p
+            {...subtitleAnimation}
+            className="font-bold text-center whitespace-pre-line text-t1 text-grayscale-100">
+            {mainText.subTitle}
+          </motion.p>
+        </div>
         <motion.div
           variants={itemVariants}
           className="w-full px-6 flex flex-col space-y-[10px] mt-[60px] mb-[120px]">

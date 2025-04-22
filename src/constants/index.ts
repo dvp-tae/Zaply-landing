@@ -1,7 +1,7 @@
 export const mainText = {
   title: [`Create Once,\n Spread with Zaply`],
   subTitle: [`하나의 콘텐츠로\n 모든 플랫폼을 연결하세요`],
-  register: [`제플리 베타테스트 사전 등록\n 4.00 (월) - 4.00(일)`],
+  register: [`제플리 베타테스트 사전 등록\n 4.21 (월) - 5.11(일)`],
   button: ["Zaply 사전 등록하기"],
 } as const;
 
@@ -30,10 +30,10 @@ export const featureThreeText = {
 export const featureWhyText = {
   title: [`콘텐츠는 더 멀리,\n 더 빠르게 퍼져야 하니까`],
   description: [
-    "영향력 있는 크리이에이터는 여러 플랫폼을 넘나듭니다.",
+    "영향력 있는 크리에이터는 여러 플랫폼을 넘나듭니다.",
     "콘텐츠는 더 멀리, 더 빠르게 퍼져야 합니다.",
     "",
-    "하지만 플랫폿마다 요구하는\n 포맷, 톤, 업로드 방식이 다르기에",
+    "하지만 플랫폼마다 요구하는\n 포맷, 톤, 업로드 방식이 다르기에",
     "우리는 '창작보다 유통'에 더 많은 시간을 쓰고 있죠.",
     "",
     "Zaply는 이 과정을 AI자동화로 없애고,",
@@ -43,11 +43,11 @@ export const featureWhyText = {
 
 export const preRegisterInfoText = {
   title: [`지금 사전 등록하면?`],
-  description: [`재플리 베타테스트 사전 등록\n 4.21(월) - 5.5(월), 14일간`],
+  description: [`재플리 베타테스트 사전 등록\n 4.21(월) - 5.11(일), 14일간`],
   benefit: [
-    `공식 출시 후 '프리미엄 이용권' 무료 3달 제공`,
-    `우수 피드백 제공자 대상 '상품 또는 리워드' 증정`,
-    `'베타' 전용 선기능 제공`,
+    `공식 출시 후 '프리미엄 이용권' 3개월 무료제공`,
+    `'베타 테스터' 전용 선기능 제공\n`,
+    `지속적인 프로덕트 사용 피드백 및 인터뷰 요청,\n피드백 제공자 대상 리워드 증정`,
   ],
 } as const;
 

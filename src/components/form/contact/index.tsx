@@ -22,8 +22,10 @@ export default function ContactForm() {
       setName("");
       setEmail("");
       setIsAgree(false);
+
+      alert("사전 등록이 성공적으로 완료되었습니다. 감사합니다!");
     }
-  }, [state]);
+  }, [state.succeeded]);
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-8">
