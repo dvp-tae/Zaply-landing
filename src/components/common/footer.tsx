@@ -1,13 +1,15 @@
 import { FooterText } from "@/constants";
-import { ZaplyLogoIcon } from "../Icons";
+import ZaplyLogoGray from "@/assets/images/ZaplyLogoGray.png";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="w-full px-6 py-10 bg-grayscale-200">
       <div className="flex flex-col items-start justify-center w-full h-full space-y-10">
-        <div className="flex items-center gap-2 w-[120px] h-10 bg-grayscale-200">
-          <ZaplyLogoIcon width={34} height={40} color="#BDC5D0" />
-          <p className="italic font-creato500 text-h2 text-grayscale-400">Zaply</p>
+        <div className="flex items-center gap-2 bg-grayscale-200">
+          <div className="w-[101px] h-10 relative">
+            <Image src={ZaplyLogoGray} alt="ZaplyLogo" fill />
+          </div>
         </div>
         <div className="flex flex-col space-y-[2px]">
           {FooterText.map((text, index) => (

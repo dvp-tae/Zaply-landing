@@ -46,12 +46,12 @@ export default function SectionPreRegister() {
             variants={itemVariants}
             className="mt-[120px] text-t1 font-bold text-center leading-9">
             지금 바로{" "}
-            <span className="italic font-bold text-transparent font-creato700 bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text">
+            <span className="italic text-transparent font-creato800 bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text">
               Zaply&nbsp;
             </span>
             의<br /> 크리에이터 성장을 위한
             <br />{" "}
-            <span className="italic font-bold text-blue-700 font-creato700">Shortcut&nbsp;</span>을
+            <span className="italic font-bold text-blue-700 font-creato800">Shortcut&nbsp;</span>을
             경험해보세요!
           </motion.p>
           <motion.div

@@ -1,9 +1,12 @@
 "use client";
 
-import { MenuIcon, XIcon, ZaplyLogoIcon } from "../Icons";
+import { MenuIcon, XIcon } from "../Icons";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import ZaplyLogoWhite from "@/assets/images/ZaplyLogoWhite.png";
+import ZaplyLogoGray from "@/assets/images/ZaplyLogoGray.png";
+import Image from "next/image";
 
 export default function Header() {
   const router = useRouter();
@@ -19,11 +22,9 @@ export default function Header() {
           type="button"
           className="flex items-center justify-center w-[120px] h-10"
           onClick={() => router.push("/")}>
-          <ZaplyLogoIcon color={isOpen ? "#D6DBE2" : "#FEFEFE"} />
-          <p
-            className={`italic font-creato500 text-h2 ${isOpen ? "text-grayscale-400" : "text-grayscale-100"}`}>
-            Zaply
-          </p>
+          <div className="w-[101px] h-10 relative">
+            <Image src={!isOpen ? ZaplyLogoWhite : ZaplyLogoGray} alt="ZaplyLogo" fill />
+          </div>
         </button>
         <>
           {isOpen ? (
