@@ -1,7 +1,7 @@
 export const mainText = {
   title: [`Create Once,\n Spread with Zaply`],
   subTitle: [`하나의 콘텐츠로\n 모든 플랫폼을 연결하세요`],
-  register: [`제플리 베타테스트 사전 등록\n 4.21 (월) - 5.11(일)`],
+  register: [`제플리 베타테스트 사전 등록\n 4.21 (월) - 5.11 (일)`],
   button: ["Zaply 사전 등록하기"],
 } as const;
 

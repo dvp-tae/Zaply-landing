@@ -12,10 +12,37 @@ const pretendard = localFont({
   preload: true,
 });
 
-const creato = localFont({
-  src: "../../public/fonts/CreatoDisplay.woff2",
-  variable: "--font-creato",
-  weight: "45 920",
+const creato400 = localFont({
+  src: "../../public/fonts/CreatoDisplay-RegularItalic.woff2",
+  variable: "--font-creato-400",
+  weight: "400",
+  style: "italic",
+  display: "swap",
+  preload: true,
+});
+
+const creato500 = localFont({
+  src: "../../public/fonts/CreatoDisplay-MediumItalic.woff2",
+  variable: "--font-creato-500",
+  weight: "500",
+  style: "italic",
+  display: "swap",
+  preload: true,
+});
+
+const creato700 = localFont({
+  src: "../../public/fonts/CreatoDisplay-BoldItalic.woff2",
+  variable: "--font-creato-700",
+  weight: "700",
+  style: "italic",
+  display: "swap",
+  preload: true,
+});
+
+const creato800 = localFont({
+  src: "../../public/fonts/CreatoDisplay-ExtraBoldItalic.woff2",
+  variable: "--font-creato-800",
+  weight: "800",
   style: "italic",
   display: "swap",
   preload: true,
@@ -71,7 +98,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body
-        className={`${pretendard.variable} ${creato.variable} relative font-pretendard max-w-[480px] mx-auto bg-grayscale-200 h-svh overflow-x-hidden overscroll-none`}>
+        className={`${pretendard.variable} ${creato400.variable} ${creato500.variable} ${creato700.variable} ${creato800.variable} relative font-pretendard max-w-[480px] mx-auto bg-grayscale-200 h-svh overflow-x-hidden overscroll-none`}>
         <MotionProvider>
           <Header />
           <main>{children}</main>

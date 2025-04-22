@@ -12,7 +12,7 @@ export default function SectionWhy() {
     <motion.div
       id="feature-why"
       ref={featureRef}
-      className="relative h-screen bg-blue-blueblack snap-start snap-always"
+      className="relative h-screen bg-center bg-cover bg-sectionwhy snap-start snap-always"
       initial="hidden"
       viewport={{ once: false, amount: 0.5 }}
       whileInView="visible">

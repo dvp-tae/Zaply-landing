@@ -12,14 +12,14 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 max-w-[480px] mx-auto">
       <motion.div
-        className={`flex justify-between items-center py-4 px-[30px] h-[72px] transition-colors duration-300 ${
-          isOpen ? "bg-white" : "bg-white/20 border-b-[0.5px] border-b-gray-100"
+        className={`flex justify-between items-center py-4 pl-[20px] pr-[30px] h-[72px] transition-colors duration-300 ${
+          isOpen ? "bg-white" : "bg-white/30 border-b-[0.5px] border-b-gray-100"
         }`}>
         <button
           type="button"
-          className="w-[101px] h-10 flex items-center justify-center gap-1"
+          className="flex items-center justify-center w-[120px] h-10"
           onClick={() => router.push("/")}>
-          <ZaplyLogoIcon width={34} height={40} color={isOpen ? "#D6DBE2" : "#FEFEFE"} />
+          <ZaplyLogoIcon color={isOpen ? "#D6DBE2" : "#FEFEFE"} />
           <p
             className={`italic font-creato500 text-h2 ${isOpen ? "text-grayscale-400" : "text-grayscale-100"}`}>
             Zaply

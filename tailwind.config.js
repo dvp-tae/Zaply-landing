@@ -10,10 +10,10 @@ module.exports = {
     extend: {
       fontFamily: {
         pretendard: ["var(--font-pretendard)", "sans-serif"],
-        creato: ["var(--font-creato)", "sans-serif"],
         creato800: ["var(--font-creato-800)", "sans-serif"],
         creato700: ["var(--font-creato-700)", "sans-serif"],
         creato500: ["var(--font-creato-500)", "sans-serif"],
+        creato400: ["var(--font-creato-400)", "sans-serif"],
       },
       fontSize: {
         h1: ["32px", { lineHeight: "130%", fontWeight: "700" }],
@@ -88,9 +88,7 @@ module.exports = {
         section1: "url('/assets/images/section1.png')",
         section2: "url('/assets/images/section2.png')",
         section3: "url('/assets/images/section3.png')",
-        feature1: "url('/assets/images/Feature1.webp')",
-        feature2: "url('/assets/images/Feature2.webp')",
-        feature3: "url('/assets/images/Feature3.webp')",
+        sectionwhy: "url('/assets/images/sectionwhy.png')",
       },
     },
   },

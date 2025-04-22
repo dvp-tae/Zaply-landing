@@ -163,18 +163,12 @@ export const ShareIcon = ({ size = 24, className, color = "#FEFEFE", ...props }:
   </svg>
 );
 
-export const ZaplyLogoIcon = ({
-  width = 34,
-  height = 40,
-  className,
-  color = "#FEFEFE",
-  ...props
-}: IconProps) => (
+export const ZaplyLogoIcon = ({ className, color = "#FEFEFE", ...props }: IconProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={width}
-    height={height}
-    viewBox="180 180 68 80"
+    width="100%"
+    height="100%"
+    viewBox="190 170 40 120"
     fill="none"
     className={className}
     {...props}>
@@ -469,6 +463,277 @@ export const ZaplyLogoIcon = ({
       </linearGradient>
       <clipPath id="clip0_144_3328">
         <rect width="101.345" height="119.833" fill="white" transform="translate(162 162)" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const ZaplyFooterLogoIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="40" viewBox="0 0 35 40" fill="none">
+    <g clip-path="url(#clip0_375_1205)">
+      <mask id="mask0_375_1205" maskUnits="userSpaceOnUse" x="-7" y="-8" width="51" height="54">
+        <rect
+          x="-6.37988"
+          y="29.0659"
+          width="46.8922"
+          height="26.6145"
+          transform="rotate(-51.9188 -6.37988 29.0659)"
+          fill="url(#paint0_linear_375_1205)"
+        />
+      </mask>
+      <g mask="url(#mask0_375_1205)">
+        <path d="M16.6038 -21.0674L16.5914 49.0397" stroke="#D6DBE2" strokeWidth="0.168067" />
+        <line
+          x1="-13.2361"
+          y1="19.5883"
+          x2="46.2461"
+          y2="19.5883"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <path d="M15.6425 -19.7558L19.0353 47.1082" stroke="#D6DBE2" strokeWidth="0.168067" />
+        <path d="M14.6814 -18.4438L21.2489 46.4132" stroke="#D6DBE2" strokeWidth="0.168067" />
+        <line
+          x1="13.7545"
+          y1="-17.1377"
+          x2="22.7617"
+          y2="41.6586"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="12.7925"
+          y1="-15.8275"
+          x2="24.7662"
+          y2="42.4372"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="11.8309"
+          y1="-14.5176"
+          x2="26.7402"
+          y2="43.0657"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="10.8685"
+          y1="-13.2073"
+          x2="28.6753"
+          y2="43.547"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="9.90644"
+          y1="-11.8973"
+          x2="30.5649"
+          y2="43.8822"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="8.94368"
+          y1="-10.5869"
+          x2="32.4008"
+          y2="44.0748"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="7.98096"
+          y1="-9.27675"
+          x2="34.1766"
+          y2="44.1267"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="7.01781"
+          y1="-7.96607"
+          x2="35.8846"
+          y2="44.042"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="6.05447"
+          y1="-6.65578"
+          x2="37.5184"
+          y2="43.8235"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="5.09143"
+          y1="-5.34537"
+          x2="39.0717"
+          y2="43.4755"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="4.12798"
+          y1="-4.03435"
+          x2="40.5374"
+          y2="43.0028"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="3.16435"
+          y1="-2.72368"
+          x2="41.9094"
+          y2="42.4089"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="2.20031"
+          y1="-1.41239"
+          x2="43.1816"
+          y2="41.6999"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="1.23661"
+          y1="-0.101434"
+          x2="44.3489"
+          y2="40.8798"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="0.272022"
+          y1="1.21016"
+          x2="45.4046"
+          y2="39.9552"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-0.691727"
+          y1="2.52144"
+          x2="46.3454"
+          y2="38.9309"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-1.65634"
+          y1="3.83337"
+          x2="47.1645"
+          y2="37.8137"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-2.62083"
+          y1="5.14499"
+          x2="47.8584"
+          y2="36.609"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-3.58544"
+          y1="6.45729"
+          x2="48.4226"
+          y2="35.3241"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-4.55015"
+          y1="7.76928"
+          x2="48.8533"
+          y2="33.9649"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-5.5152"
+          y1="9.08196"
+          x2="49.1465"
+          y2="32.5391"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-6.47985"
+          y1="10.3943"
+          x2="49.2997"
+          y2="31.0528"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-7.44506"
+          y1="11.7074"
+          x2="49.3093"
+          y2="29.5142"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-8.40984"
+          y1="13.0202"
+          x2="49.1735"
+          y2="27.9296"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-9.37517"
+          y1="14.3337"
+          x2="48.8894"
+          y2="26.3074"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-10.3405"
+          y1="15.6469"
+          x2="48.4557"
+          y2="24.6542"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-11.3057"
+          y1="16.9603"
+          x2="47.8713"
+          y2="22.9781"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+        <line
+          x1="-12.2711"
+          y1="18.2745"
+          x2="47.1347"
+          y2="21.2872"
+          stroke="#D6DBE2"
+          strokeWidth="0.168067"
+        />
+      </g>
+    </g>
+    <defs>
+      <linearGradient
+        id="paint0_linear_375_1205"
+        x1="17.0662"
+        y1="29.0659"
+        x2="17.0662"
+        y2="55.6804"
+        gradientUnits="userSpaceOnUse">
+        <stop stopColor="#D9D9D9" stopOpacity="0" />
+        <stop offset="0.144231" stopColor="#D9D9D9" />
+        <stop offset="0.817308" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#D9D9D9" stopOpacity="0" />
+      </linearGradient>
+      <clipPath id="clip0_375_1205">
+        <rect width="33.7815" height="39.9444" fill="white" transform="translate(0.974609)" />
       </clipPath>
     </defs>
   </svg>
