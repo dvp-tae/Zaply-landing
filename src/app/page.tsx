@@ -9,7 +9,7 @@ import SectionPreRegister from "@/components/section/section-pre-register";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen overflow-x-hidden overflow-y-auto snap-y snap-mandatory scrollbar-hide">
+    <div className="w-full h-screen overflow-x-hidden overflow-y-scroll snap-y snap-mandatory scrollbar-hide">
       <SectionMain />
       <SectionFeatureOne />
       <SectionFeatureTwo />

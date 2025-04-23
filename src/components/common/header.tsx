@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 max-w-[480px] mx-auto">
       <motion.div
-        className={`flex justify-between items-center py-4 pl-[20px] pr-[30px] h-[72px] transition-colors duration-300 ${
+        className={`flex justify-between items-center py-4 pl-[20px] pr-[30px] h-[72px] backdrop-blur-[10px] transition-colors duration-300 ${
           isOpen ? "bg-white" : "bg-white/30 border-b-[0.5px] border-b-gray-100"
         }`}>
         <button
