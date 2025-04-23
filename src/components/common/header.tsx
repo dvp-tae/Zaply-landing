@@ -13,7 +13,12 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 max-w-[480px] mx-auto">
+    <header
+      className="fixed top-0 left-0 right-0 z-50 max-w-[480px] mx-auto"
+      style={{
+        backdropFilter: "blur(10px)",
+        WebkitBackdropFilter: "blur(10px)", // Safari 지원용
+      }}>
       <motion.div
         className={`flex justify-between items-center py-4 pl-[20px] pr-[30px] h-[72px] backdrop-blur-[10px] transition-colors duration-300 ${
           isOpen ? "bg-white" : "bg-white/30 border-b-[0.5px] border-b-gray-100"
