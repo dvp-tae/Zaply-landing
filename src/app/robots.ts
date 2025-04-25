@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/private/", "/admin/"],
     },
-    sitemap: "https://zaply.io/sitemap.xml",
+    sitemap: "https://zaply-landing.vercel.app/sitemap.xml",
   };
 }
