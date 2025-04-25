@@ -95,6 +95,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="format-detection" content="telephone=no, data=no, email=no, address=no" />
+        <meta
+          name="google-site-verification"
+          content="TuNtcfA1iGVCmvoTfEIMfvKhUzIdWjyvdGHnaJqjnDY"
+        />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body
