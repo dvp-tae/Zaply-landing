@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://zaply-landing.vercel.app/";
+  const baseUrl = "https://zaply-landing.vercel.app";
 
   const routes = ["", "/inquire"].map(route => ({
     url: `${baseUrl}${route}`,
