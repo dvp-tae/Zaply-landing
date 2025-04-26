@@ -102,6 +102,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="TuNtcfA1iGVCmvoTfEIMfvKhUzIdWjyvdGHnaJqjnDY"
         />
+        <meta name="naver-site-verification" content="314c10355964f56eb6c92bb1b29add456f1209fc" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body
