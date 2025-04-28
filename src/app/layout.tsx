@@ -104,6 +104,7 @@ export default function RootLayout({
         />
         <meta name="naver-site-verification" content="314c10355964f56eb6c92bb1b29add456f1209fc" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" href="/assets/svgs/icon.svg" />
       </head>
       <body
         className={`${pretendard.variable} ${creato400.variable} ${creato500.variable} ${creato700.variable} ${creato800.variable} relative font-pretendard max-w-[480px] mx-auto bg-grayscale-200 h-svh overflow-x-hidden overscroll-none`}>
