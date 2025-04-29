@@ -56,7 +56,7 @@ export default function ContactForm() {
           name="email"
           value={email}
           onChange={e => setEmail(e.target.value)}
-          placeholder="zaply.offical@gmail.com"
+          placeholder="zaply.official@gmail.com"
           required
           className="w-full rounded-[12px] bg-grayscale-100 text-center py-[10px] px-[39px] text-sm font-medium text-grayscale-700 placeholder:text-grayscale-500"
         />
