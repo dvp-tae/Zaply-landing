@@ -101,5 +101,5 @@ export const InquireText = {
 } as const;
 
 export const FooterText = [
-  `대표: 김민규\n 문의: zaply.official@gmail.com\n Copyright © 2025. Zaply. All rights reserved.`,
+  `대표: 김민규\n 문의: zaplyservice.official@gmail.com\n Copyright © 2025. Zaply. All rights reserved.`,
 ] as const;
